@@ -1,0 +1,22 @@
+Steps to run in VS Code
+1.Open VS Code and create a file named image_resizer.py.
+
+2.Paste the above code into the file.
+
+3.Create a virtual environment (optional but recommended):
+python -m venv venv
+source venv/bin/activate   # macOS/Linux
+venv\Scripts\activate      # Windows
+
+4.Install Pillow:
+pip install pillow
+
+5.Press Ctrl + Shift + P → "Python: Select Interpreter" → choose your environment.
+
+6.Run the script in VS Code terminal:
+python image_resizer.py
+
+7.Enter:
+Path to your input folder (e.g., C:\Users\YourName\Pictures\input_images)
+Path to your output folder (e.g., C:\Users\YourName\Pictures\output_images)
+Width and height in pixels (e.g., 800 600)
